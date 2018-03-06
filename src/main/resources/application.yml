@@ -1,0 +1,9 @@
+com:
+  gaic:
+    bue:
+      loader:
+        cubebulksubmissionloaderui:
+          url: https://hsv.dockerdev.td.afg
+          jobStartUrl: ${com.gaic.bue.loader.cubebulksubmissionloaderui.url}/runJob
+          jobStatusUrl: ${com.gaic.bue.loader.cubebulksubmissionloaderui.url}/jobStatus
+          jobInfoUrl: ${com.gaic.bue.loader.cubebulksubmissionloaderui.url}/jobInfo
